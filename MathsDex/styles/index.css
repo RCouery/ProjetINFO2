@@ -94,6 +94,11 @@ nav li a:hover{
     color : #002E5D;
 }
 
+#pp{
+margin-left : 50px;
+width : 50px;
+border-radius: 2em;}
+
 form {
   /* Uniquement centrer le formulaire sur la page */
   margin: 0 auto;
