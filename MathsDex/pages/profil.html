@@ -7,26 +7,85 @@
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
     <!-- <link rel="icon" href="../images/favicon.ico" /> -->
+    <script language="javascript">
+        function afficher1() {
+            if(getComputedStyle(document.getElementById('dessus')).opacity == "0"){
+                document.getElementById('dessus').style.opacity = "100%";
+            } else {
+                document.getElementById('dessus').style.opacity = "0";
+            }
+        }
+
+        </script>
 </head>
 
 <body>
-    <div id = "BarreTop"></div>
-    <div class = "corps">
-        <div id = "logo">
-            <a href = "index.html">MathsDex</a>
-        </div>
-
-        <div id = "menu">
-            <nav>
-                <ul>
-                    <li><a href = "">Cours</a></li>
-                    <li><a href = "">Exercices</a></li>
-                    <li><a href = "">Evaluations</a></li>
-                    <li id = "pp">PP</li>
-                    <div class = "pop">test</div>
-                </ul>
-            </nav>
-        </div></br>
+<div id = "BarreTop"></div>
+<div class = "corps">
+    <div id = "logo">
+        <a href = "index.html">MathsDex</a>
     </div>
+
+    <div id = "menu">
+        <nav>
+            <ul>
+                <li><a href = "">Cours</a></li>
+                <li><a href = "">Exercices</a></li>
+                <li><a href = "">Evaluations</a></li>
+                <li id = "pp"><a href = "javascript:afficher1()">PP</a></li>
+                <div id ="dessus">
+                    <div id = "pop">
+                        <ul>
+                            <li><a href = "">Profil</a></li>
+                            <li><a href = "">Paramètres</a></li>
+                            <li><a href = "">Déconnexion</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </div></br>
+
+    <div class = "contenu">
+        <h1>Espace personnel</h1>
+    </div>
+</div>
+<div class = "bande">
+    <div class = "corps">Exercices en cours</div>
+</div>
+
+<div class = "corps">
+    <div class = "stock">
+        <a href=""><div class = "e1">Probabilités - Exercice 13</div></a>
+        <a href=""><div class = "e2">Statistiques - Exercice 8</div></a>
+        <a href=""><div class = "e1">Probabilités - Exercice 11</div></a>
+    </div>
+</div>
+
+<div class = "bande">
+    <div class = "corps">Cours en cours</div>
+</div>
+
+<div class = "corps">
+    <div class = "stock">
+        <a href=""><div class = "e1">Probabilités - Dénombrement</div></a>
+        <a href=""><div class = "e1">Probabilités - Probabilités conditionelles</div></a>
+        <a href=""><div class = "e2">Statistiques</div></a>
+        <a href=""><div class = "e4">Méthodes Numériques</div></a>
+    </div>
+</div>
+
+<div class = "bande">
+    <div class = "corps">Evaluations en cours</div>
+</div>
+
+<div class = "corps">
+    <div class = "stock">
+        <a href=""><div class = "e4">Méthodes Numériques</div></a>
+        <a href=""><div class = "e3">Mathématiques discrètes</div></a>
+    </div>
+</div>
+
+
 </body>
 </html>
