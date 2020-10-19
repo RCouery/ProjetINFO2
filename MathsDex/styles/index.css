@@ -127,6 +127,7 @@ input{
 }
 
 .pop{
+display : none;
 width : 50px;
 border : solid 1px;
 margin-top : 100px;}
