@@ -189,7 +189,6 @@ overflow-x: auto;
 color:black;
 height : 300px;
 font-size:25px;
-text-align: center;
 white-space:nowrap;
 }
 
@@ -197,15 +196,17 @@ white-space:nowrap;
 text-decoration: none;}
 
 .stock li{
+text-align:center;
+white-space:normal;
+overflow:hidden;
 width : 200px;
-white-space : normal;
 display:inline-block;
 list-style-type: none;
 margin-right : 20px;}
 .e1 {
 height : 200px;
 text-decoration : none;
-background-color:orange;
+background-color:#BF3030;
 }
 
 .e1:hover{
@@ -214,7 +215,7 @@ filter: blur(0.3px);
 }
 .e2 {
 height : 200px;
-background-color:green;
+background-color:#9FE855;
 }
 
 .e2:hover{
@@ -223,7 +224,7 @@ filter: blur(0.3px);
 }
 .e3 {
 height : 200px;
-background-color:brown;
+background-color:#C8AD7F ;
 }
 
 .e3:hover{
@@ -232,7 +233,7 @@ filter: blur(0.3px);
 }
 .e4{
 height : 200px;
-background-color : pink;
+background-color : #3A8EBA;
 }
 
 .e4:hover{
@@ -242,7 +243,7 @@ filter: blur(0.3px);
 
 .e5{
 height : 200px;
-background-color:blue;
+background-color:#EFD807;
 }
 
 .e5:hover{
