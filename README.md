@@ -1,2 +1,0 @@
-# ProjetINFO2
-CouerPithBourSauv
