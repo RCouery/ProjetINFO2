@@ -30,16 +30,14 @@
         <div id="menu">
             <nav>
                 <ul>
-                    <li><a href="">Cours</a></li>
-                    <li><a href="">Exercices</a></li>
-                    <li><a href="">Evaluations</a></li>
+                    <li><a href="cours.html">Rechercher un cours</a></li>
                     <li id="pp"><a href="javascript:afficher1()">PP</a></li>
                     <div id="dessus">
                         <div id="pop">
                             <ul>
-                                <li><a href="">Profil</a></li>
+                                <li><a href="profil.html">Profil</a></li>
                                 <li><a href="">Paramètres</a></li>
-                                <li><a href="">Déconnexion</a></li>
+                                <li><a href="index.html">Déconnexion</a></li>
                             </ul>
                         </div>
                     </div>
@@ -52,44 +50,66 @@
         </div>
     </div>
     <div class="bande">
-        <div class="corps">Cours et exercices</div>
     </div>
 
     <div class="corps">
-        <ul class="stock">
-            <li>
-                <button class="butbut">Chapitre 1</button>
-                <p>
-                    Exercice 1
-                </p>
-                <script src="../styles/jsstyle.js"></script>
-            </li>
-            <li >
-                <button class="butbut"> Chapitre 2</button>
-            </li>
-            <li >
-                <button class="butbut"> Chapitre 3</button>
-            </li>
-            <li >
-                <button class="butbut"> Chapitre 4</button>
-            </li>
-            <li >
-                <button class="butbut"> Chapitre 5</button>
-            </li>
-        </ul>
+        <table>
+            <tr>
+                <td>
+                    <div class = "nomCase">Cours et exercices</div>
+                    <ul class="stock">
+                        <li>
+                            <button id = "b1" class="butbut">Probabilités et Statistiques</button>
+                            <ul class = "c1">
+                                <b><li class = "titre">Arrangements, factoriel, combinaison</li></b>
+                                    <ul>
+                                        <li>Exercice 1</li>
+                                        <li>Exercice 2</li>
+                                        <li>Exercice 3</li>
+                                        <li>Exercice 4</li>
+                                    </ul>
+                                <b><li class = "titre">Variables discrètes</li></b>
+                                    <ul>
+                                        <li>Exercice 1</li>
+                                        <li>Exercice 2</li>
+                                    </ul>
+                            </ul>
+                        </li>
+                        <li >
+                            <button id = "b2" class="butbut">Algèbre linéaire</button>
+                                <ul class = "c2">
+                                    <b><li class = "titre">Caclul matriciel</li></b>
+                                        <ul>
+                                            <li>Exercice 1</li>
+                                        </ul>
+                                    <b><li class = "titre">Suite de matrices</li></b>
+                                        <ul>
+                                            <li>Exercice 1</li>
+                                            <li>Exercice 2</li>
+                                            <li>Exercice 3</li>
+                                        </ul>
+                                </ul>
+                        </li>
+                        <li >
+                            <button class="butbut"> Mathématiques discrètes</button>
+                        </li>
+                        <li >
+                            <button class="butbut"> Modélisation mathématique</button>
+                        </li>
+                        <li >
+                            <button class="butbut"> Graphes et langages</button>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <div class = "nomCase">Evaluations</div>
+                </td>
+            </tr>
+        </table>
+        
+        <script src="../styles/jsstyle.js"></script>
     </div>
 
-
-    <div class="bande">
-        <div class="corps">Evaluations en cours</div>
-    </div>
-
-    <div class="corps">
-        <ul class="stock">
-            <li class="e4">Méthodes Numériques</li>
-            <li class="e3">Mathématiques discrètes</li>
-        </ul>
-    </div>
 
 
 </body>
