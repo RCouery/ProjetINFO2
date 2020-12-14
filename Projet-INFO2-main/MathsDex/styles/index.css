@@ -245,7 +245,7 @@ margin-bottom : 30px;
  }
  
  button.butbut:active {
-    ransform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
  }
  
  button.butbut:active::before {
@@ -256,6 +256,7 @@ margin-bottom : 30px;
  }
 
  .c1,.c2 {
+  display: none;
   margin-top: 20px;
   margin-bottom: 10px;
  }
