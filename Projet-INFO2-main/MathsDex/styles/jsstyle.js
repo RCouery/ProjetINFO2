@@ -17,3 +17,10 @@ $( "#b4" ).click(function() {
 $( "#b5" ).click(function() {
   $( ".c5" ).slideToggle( "slow" );
 });
+
+$( function() {
+    $( ".stock" ).sortable({
+      revert: true
+    });
+    $( "ul, li" ).disableSelection();
+  } );

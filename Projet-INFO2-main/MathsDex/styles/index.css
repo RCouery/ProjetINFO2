@@ -9,8 +9,9 @@ html {
 }
 
 li{
-  list-style: none;
+  list-style: url("../images/icons8-calculator-24.png");
 }
+
 
 #BarreTop{
    position: absolute;

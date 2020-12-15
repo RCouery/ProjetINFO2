@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script language="javascript">
         function afficher1() {
             if (getComputedStyle(document.getElementById('dessus')).opacity == "0") {
@@ -18,6 +19,21 @@
 
     </script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script>
+      $( function() {
+        $( ".stock" ).sortable({
+          revert: true
+        });
+        $( "#draggable" ).draggable({
+          connectToSortable: ".stock",
+          helper: "clone",
+          revert: "invalid"
+        });
+        $( "ul, li" ).disableSelection();
+      } );
+  </script> -->
 </head>
 
 <body>
@@ -75,7 +91,7 @@
                                     </ul>
                             </ul>
                         </li>
-                        <li >
+                        <li>
                             <button id = "b2" class="butbut">Algèbre linéaire</button>
                                 <ul class = "c2">
                                     <b><li class = "titre">Caclul matriciel</li></b>
@@ -90,13 +106,13 @@
                                         </ul>
                                 </ul>
                         </li>
-                        <li >
+                        <li>
                             <button id = "b3" class="butbut"> Mathématiques discrètes</button>
                         </li>
-                        <li >
+                        <li>
                             <button id = "b4" class="butbut"> Modélisation mathématique</button>
                         </li>
-                        <li >
+                        <li>
                             <button id = "b5" class="butbut"> Graphes et langages</button>
                         </li>
                     </ul>
