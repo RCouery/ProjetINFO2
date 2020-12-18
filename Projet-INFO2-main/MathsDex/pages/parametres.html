@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MathsDex</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../styles/inscription.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <script language="javascript">
+        function afficher1() {
+            if (getComputedStyle(document.getElementById('dessus')).opacity == "0") {
+                document.getElementById('dessus').style.opacity = "100%";
+            } else {
+                document.getElementById('dessus').style.opacity = "0";
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div id="BarreTop"></div>
+<div class="corps">
+    <div id="logo">
+        <a href="profil.html">MathsDex</a>
+    </div>
+
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="profil.html">Espace personnel</a></li>
+                <li><a href="cours.html">Rechercher un cours</a></li>
+                <li id="pp"><a href="javascript:afficher1()">PP</a></li>
+                <div id="dessus">
+                    <div id="pop">
+                        <ul>
+                            <li><a href="profil.html">Profil</a></li>
+                            <li><a href="parametres.html">Paramètres</a></li>
+                            <li><a href="index.html">Déconnexion</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </div></br>
+
+    <div class="contenu">
+        <h1>Paramètres</h1>
+    </div>
+</div>
+<div class="bande">
+</div>
+<div class = "corps">
+    <form>
+        <label>Nom</label>
+        <input type="text" name="nom" placeholder="Macron">
+        <label>Prénom</label>
+        <input type="text" name="prenom" placeholder="Emmanuel">
+        <label>Adresse mail</label>
+        <input type="text" name="mail" placeholder="manu.macron@gmail.com">
+        <label>Mot de passe</label>
+        <input type="password" name="mail" placeholder="*************">
+        <label>Nouveau mot de passe</label>
+        <input type="password" name="mail">
+        <label>Confirmer mot de passe</label>
+        <input type="password" name="mail">
+
+        <button type="submit">Enregistrer</button>
+    </form>
+</div></br>
+<script src="../styles/jsstyle.js"></script>
+</body>
+</html>

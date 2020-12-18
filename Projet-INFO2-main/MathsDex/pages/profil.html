@@ -21,110 +21,98 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <!-- <script>
-      $( function() {
-        $( ".stock" ).sortable({
-          revert: true
-        });
-        $( "#draggable" ).draggable({
-          connectToSortable: ".stock",
-          helper: "clone",
-          revert: "invalid"
-        });
-        $( "ul, li" ).disableSelection();
-      } );
-  </script> -->
 </head>
 
 <body>
-    <div id="BarreTop"></div>
-    <div class="corps">
-        <div id="logo">
-            <a href="index.html">MathsDex</a>
-        </div>
+<div id="BarreTop"></div>
+<div class="corps">
+    <div id="logo">
+        <a href="profil.html">MathsDex</a>
+    </div>
 
-        <div id="menu">
-            <nav>
-                <ul>
-                    <li><a href="cours.html">Rechercher un cours</a></li>
-                    <li id="pp"><a href="javascript:afficher1()">PP</a></li>
-                    <div id="dessus">
-                        <div id="pop">
-                            <ul>
-                                <li><a href="profil.html">Profil</a></li>
-                                <li><a href="">Paramètres</a></li>
-                                <li><a href="index.html">Déconnexion</a></li>
-                            </ul>
-                        </div>
+    <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="cours.html">Rechercher un cours</a></li>
+                <li id="pp"><a href="javascript:afficher1()">PP</a></li>
+                <div id="dessus">
+                    <div id="pop">
+                        <ul>
+                            <li><a href="profil.html">Profil</a></li>
+                            <li><a href="parametres.html">Paramètres</a></li>
+                            <li><a href="index.html">Déconnexion</a></li>
+                        </ul>
                     </div>
-                </ul>
-            </nav>
-        </div></br>
+                </div>
+            </ul>
+        </nav>
+    </div></br>
 
-        <div class="contenu">
-            <h1>Espace personnel</h1>
-        </div>
+    <div class="contenu">
+        <h1>Espace personnel</h1>
     </div>
-    <div class="bande">
-    </div>
+</div>
+<div class="bande">
+</div>
 
-    <div class="corps">
-        <table>
-            <tr>
-                <td>
-                    <div class = "nomCase">Cours et exercices</div>
-                    <ul class="stock">
-                        <li>
-                            <button id = "b1" class="butbut">Probabilités et Statistiques</button>
-                            <ul class = "c1">
-                                <b><li class = "titre">Arrangements, factoriel, combinaison</li></b>
-                                    <ul>
-                                        <li>Exercice 1</li>
-                                        <li>Exercice 2</li>
-                                        <li>Exercice 3</li>
-                                        <li>Exercice 4</li>
-                                    </ul>
-                                <b><li class = "titre">Variables discrètes</li></b>
-                                    <ul>
-                                        <li>Exercice 1</li>
-                                        <li>Exercice 2</li>
-                                    </ul>
+<div class="corps">
+    <a href = "cours.html"><button class = "btn">S'inscrire dans un nouveau Cours</button></a>
+    <table>
+        <tr>
+            <td>
+                <div class = "nomCase">Cours et exercices</div>
+                <ul class="stock">
+                    <li>
+                        <button id = "b1" class="butbut">Probabilités et Statistiques</button>
+                        <ul class = "c1">
+                            <b><li class = "titre">Arrangements, factoriel, combinaison</li></b>
+                            <ul>
+                                <li>Exercice 1</li>
+                                <li>Exercice 2</li>
+                                <li>Exercice 3</li>
+                                <li>Exercice 4</li>
                             </ul>
-                        </li>
-                        <li>
-                            <button id = "b2" class="butbut">Algèbre linéaire</button>
-                                <ul class = "c2">
-                                    <b><li class = "titre">Caclul matriciel</li></b>
-                                        <ul>
-                                            <li>Exercice 1</li>
-                                        </ul>
-                                    <b><li class = "titre">Suite de matrices</li></b>
-                                        <ul>
-                                            <li>Exercice 1</li>
-                                            <li>Exercice 2</li>
-                                            <li>Exercice 3</li>
-                                        </ul>
-                                </ul>
-                        </li>
-                        <li>
-                            <button id = "b3" class="butbut"> Mathématiques discrètes</button>
-                        </li>
-                        <li>
-                            <button id = "b4" class="butbut"> Modélisation mathématique</button>
-                        </li>
-                        <li>
-                            <button id = "b5" class="butbut"> Graphes et langages</button>
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <div class = "nomCase">Evaluations</div>
-                </td>
-            </tr>
-        </table>
-        
-        <script src="../styles/jsstyle.js"></script>
-    </div>
+                            <b><li class = "titre">Variables discrètes</li></b>
+                            <ul>
+                                <li>Exercice 1</li>
+                                <li>Exercice 2</li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <button id = "b2" class="butbut">Algèbre linéaire</button>
+                        <ul class = "c2">
+                            <b><li class = "titre">Caclul matriciel</li></b>
+                            <ul>
+                                <li>Exercice 1</li>
+                            </ul>
+                            <b><li class = "titre">Suite de matrices</li></b>
+                            <ul>
+                                <li>Exercice 1</li>
+                                <li>Exercice 2</li>
+                                <li>Exercice 3</li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <button id = "b3" class="butbut"> Mathématiques discrètes</button>
+                    </li>
+                    <li>
+                        <button id = "b4" class="butbut"> Modélisation mathématique</button>
+                    </li>
+                    <li>
+                        <button id = "b5" class="butbut"> Graphes et langages</button>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <div class = "nomCase">Evaluations</div>
+            </td>
+        </tr>
+    </table>
+
+    <script src="../styles/jsstyle.js"></script>
+</div>
 
 
 
