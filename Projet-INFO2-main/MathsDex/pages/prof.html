@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <title>MathsDex</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script language="javascript">
+        function afficher1() {
+            if (getComputedStyle(document.getElementById('dessus')).opacity == "0") {
+                document.getElementById('dessus').style.opacity = "100%";
+            } else {
+                document.getElementById('dessus').style.opacity = "0";
+            }
+        }
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div id="BarreTop"></div>
+    <div class="corps">
+        <div id="logo">
+            <a href="profil.html">MathsDex</a>
+        </div>
+
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="cours.html">Rechercher un étudiant</a></li>
+                    <li id="pp"><a href="javascript:afficher1()">PP</a></li>
+                    <div id="dessus">
+                        <div id="pop">
+                            <ul>
+                                <li><a href="profil.html">Données</a></li>
+                                <li><a href="parametres.html">Paramètres</a></li>
+                                <li><a href="index.html">Déconnexion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div></br>
+
+        <div class="contenu">
+            <h1>Données</h1>
+        </div>
+    </div>
+    <div class="bande">
+    </div>
+
+    <div class="corps">
+        
+        <script src="../styles/jsstyle.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>
